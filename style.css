@@ -9,7 +9,7 @@
 
 
 .sect-spacing {
-    margin: 5% 0;
+    margin: 10% 0;
     padding-bottom: 5%;
 }
 
@@ -85,4 +85,32 @@ header {
 
 .grayscale {
     filter: grayscale(100%);
+}
+
+/* happy client says section */
+
+.clr-txt {
+    color: #E76F51;
+}
+
+.img-sizing {
+    height: 150px;
+    width: 150px;
+    margin: 30px auto;
+}
+
+.fill-icon {
+    color: #E77C40;
+
+}
+
+.pro-link {
+    text-decoration: none;
+
+}
+
+/* FAQ section */
+
+.faq-img {
+    max-width: 500px;
 }
