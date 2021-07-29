@@ -1,0 +1,88 @@
+
+/*---------------------
+       BASE SETUP
+----------------------- */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.sect-spacing {
+    margin: 5% 0;
+    padding-bottom: 5%;
+}
+
+/*----------------------
+      HEADER SECTION 
+------------------------*/
+
+header {
+    color: white;
+    background-color: #264653;
+}
+
+/* navigation bar */
+
+.cmn-btn {
+    padding: 10px 24px;
+    background-color: #E76F51;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid #264653;
+    border-radius: 5px;
+
+}
+
+.nav-bg {
+    background-color: #264653;
+}
+
+/* header section content */
+
+.modal-btn {
+    padding: 10px 40px;
+    background-color: #E76F51;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid #264653;
+    border-radius: 5px;
+}
+
+/*---------------------------------------
+            MAIN SECTION 
+-----------------------------------------*/
+
+/* featured bike 2021 section */
+
+.title-div {
+    margin-bottom: 8%;
+}
+
+.after-efct{
+    position: relative;
+    color: #E76F51;
+}
+
+.after-efct::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 120%;
+    left: 47.5%;
+    width: 5%;
+    height: 5px;
+    border-radius: 30px;
+    background-color: #E76F51;
+    
+}
+
+.img-width {
+    max-width: 300px;
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
